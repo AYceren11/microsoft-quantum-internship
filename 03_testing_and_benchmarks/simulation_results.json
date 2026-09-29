@@ -1,0 +1,204 @@
+[
+  {
+    "n_qubits": 2,
+    "database_size": 4,
+    "target_str": "11",
+    "target_int": 3,
+    "iterations": 1,
+    "total_shots": 1000,
+    "success_count": 1000,
+    "empirical_prob": 1.0,
+    "theoretical_prob": 1.0,
+    "ci_95": [
+      0.9961732570142268,
+      0.9999999999999998
+    ],
+    "distribution": {
+      "11": 1000
+    },
+    "description": "2-Qubit Target |11> (Optimal: R=1)"
+  },
+  {
+    "n_qubits": 2,
+    "database_size": 4,
+    "target_str": "01",
+    "target_int": 2,
+    "iterations": 1,
+    "total_shots": 1000,
+    "success_count": 1000,
+    "empirical_prob": 1.0,
+    "theoretical_prob": 1.0,
+    "ci_95": [
+      0.9961732570142268,
+      0.9999999999999998
+    ],
+    "distribution": {
+      "01": 1000
+    },
+    "description": "2-Qubit Target |01> (Optimal: R=1)"
+  },
+  {
+    "n_qubits": 2,
+    "database_size": 4,
+    "target_str": "10",
+    "target_int": 1,
+    "iterations": 1,
+    "total_shots": 1000,
+    "success_count": 1000,
+    "empirical_prob": 1.0,
+    "theoretical_prob": 1.0,
+    "ci_95": [
+      0.9961732570142268,
+      0.9999999999999998
+    ],
+    "distribution": {
+      "10": 1000
+    },
+    "description": "2-Qubit Target |10> (Optimal: R=1)"
+  },
+  {
+    "n_qubits": 2,
+    "database_size": 4,
+    "target_str": "00",
+    "target_int": 0,
+    "iterations": 1,
+    "total_shots": 1000,
+    "success_count": 1000,
+    "empirical_prob": 1.0,
+    "theoretical_prob": 1.0,
+    "ci_95": [
+      0.9961732570142268,
+      0.9999999999999998
+    ],
+    "distribution": {
+      "00": 1000
+    },
+    "description": "2-Qubit Target |00> (Optimal: R=1)"
+  },
+  {
+    "n_qubits": 2,
+    "database_size": 4,
+    "target_str": "11",
+    "target_int": 3,
+    "iterations": 2,
+    "total_shots": 1000,
+    "success_count": 223,
+    "empirical_prob": 0.223,
+    "theoretical_prob": 0.24999999999999956,
+    "ci_95": [
+      0.19828817821661474,
+      0.2498318373975035
+    ],
+    "distribution": {
+      "00": 235,
+      "10": 268,
+      "01": 274,
+      "11": 223
+    },
+    "description": "2-Qubit Target |11> (Over-rotated: R=2)"
+  },
+  {
+    "n_qubits": 3,
+    "database_size": 8,
+    "target_str": "101",
+    "target_int": 5,
+    "iterations": 2,
+    "total_shots": 1000,
+    "success_count": 947,
+    "empirical_prob": 0.947,
+    "theoretical_prob": 0.9453124999999999,
+    "ci_95": [
+      0.9313254187950802,
+      0.9592534729756385
+    ],
+    "distribution": {
+      "101": 947,
+      "000": 8,
+      "110": 10,
+      "010": 7,
+      "001": 4,
+      "011": 10,
+      "111": 7,
+      "100": 7
+    },
+    "description": "3-Qubit Target |101> (Optimal: R=2)"
+  },
+  {
+    "n_qubits": 3,
+    "database_size": 8,
+    "target_str": "111",
+    "target_int": 7,
+    "iterations": 2,
+    "total_shots": 1000,
+    "success_count": 939,
+    "empirical_prob": 0.939,
+    "theoretical_prob": 0.9453124999999999,
+    "ci_95": [
+      0.9224199185393313,
+      0.9522202011191598
+    ],
+    "distribution": {
+      "111": 939,
+      "101": 7,
+      "110": 10,
+      "011": 7,
+      "010": 10,
+      "001": 12,
+      "100": 10,
+      "000": 5
+    },
+    "description": "3-Qubit Target |111> (Optimal: R=2)"
+  },
+  {
+    "n_qubits": 3,
+    "database_size": 8,
+    "target_str": "101",
+    "target_int": 5,
+    "iterations": 1,
+    "total_shots": 1000,
+    "success_count": 795,
+    "empirical_prob": 0.795,
+    "theoretical_prob": 0.7812500000000001,
+    "ci_95": [
+      0.7688723542723426,
+      0.8188698673660514
+    ],
+    "distribution": {
+      "101": 795,
+      "011": 34,
+      "001": 24,
+      "111": 19,
+      "100": 36,
+      "110": 31,
+      "000": 37,
+      "010": 24
+    },
+    "description": "3-Qubit Target |101> (Sub-optimal: R=1)"
+  },
+  {
+    "n_qubits": 3,
+    "database_size": 8,
+    "target_str": "101",
+    "target_int": 5,
+    "iterations": 3,
+    "total_shots": 1000,
+    "success_count": 329,
+    "empirical_prob": 0.329,
+    "theoretical_prob": 0.330078125,
+    "ci_95": [
+      0.30058177153495497,
+      0.35872697456617936
+    ],
+    "distribution": {
+      "110": 97,
+      "101": 329,
+      "011": 100,
+      "010": 99,
+      "001": 83,
+      "000": 95,
+      "111": 104,
+      "100": 93
+    },
+    "description": "3-Qubit Target |101> (Over-rotated: R=3)"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "author": "Ayşe Ceren Şenel",
+  "license": "MIT",
+  "package": {
+    "name": "QuantumKickstart",
+    "version": "1.0.0",
+    "description": "Microsoft Q# and Azure Quantum Onboarding Project - Quantum Kickstart"
+  }
+}
